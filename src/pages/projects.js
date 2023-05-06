@@ -7,7 +7,7 @@ import Link from 'next/link'
 import { GithubIcon } from '../Components/icons'
 import Cloud from "../../public/images/projects/ccc.png"
 import Tindog from "../../public/images/projects/dog.png"
-import Simon from "../../public/images/projects/Simon.gif"
+import Simon from "../../public/images/projects/simon.png"
 import mysite from "../../public/images/projects/mysite2.png"
 import Dicee from "../../public/images/projects/Dice.png"
 import EchoVision from "../../public/images/projects/echo.png"
