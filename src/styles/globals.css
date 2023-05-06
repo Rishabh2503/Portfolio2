@@ -1,0 +1,131 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.main2 {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+  }
+  
+  .up2 {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+  }
+  
+  .down2 {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+  }
+  
+  .card12 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 90px 5px 5px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+  }
+  
+  .instagram2 {
+    margin-top: 1.5em;
+    margin-left: 1.2em;
+    fill: #cc39a4;
+    width: 2.5rem;
+  }
+  
+  .card22 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px 90px 5px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+  }
+  
+  .twitter2 {
+    margin-top: 1.5em;
+    margin-left: 1.5em;
+    fill: #03A9F4;
+    width: 2rem;
+  }
+  
+  .card32 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px 5px 5px 90px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+  }
+  
+  .github2 {
+    margin-top: -.6em;
+    margin-left: 1.2em;
+    width: 2.5rem;
+  }
+  
+  .card42 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px 5px 90px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+  }
+  
+  .discord2 {
+    margin-top: -.9em;
+    margin-left: 1.5em;
+    fill: #8c9eff;
+    width: 2rem;
+  }
+  
+  .card12:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #cc39a4;
+  }
+  
+  .card12:hover .instagram2 {
+    fill: white;
+  }
+  
+  .card22:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #03A9F4;
+  }
+  
+  .card22:hover .twitter2 {
+    fill: white;
+  }
+  
+  .card32:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: rgb(93, 92, 92);
+  }
+  
+  .card32:hover .github2 {
+    fill: white;
+  }
+  
+  .card42:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #8c9eff;
+  }
+  
+  .card42:hover .discord2 {
+    fill: white;
+  }
