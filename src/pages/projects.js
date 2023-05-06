@@ -5,7 +5,7 @@ import Animatedtext from '../Components/Animatedtext'
 import Image from 'next/image'
 import Link from 'next/link'
 import { GithubIcon } from '../Components/icons'
-import Cloud from "../../public/images/projects/ccc.gif"
+import Cloud from "../../public/images/projects/ccc.png"
 import Tindog from "../../public/images/projects/tindog.gif"
 import Simon from "../../public/images/projects/Simon.gif"
 import mysite from "../../public/images/projects/mysite.gif"
