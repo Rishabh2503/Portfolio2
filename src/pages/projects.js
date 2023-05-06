@@ -6,13 +6,13 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { GithubIcon } from '../Components/icons'
 import Cloud from "../../public/images/projects/ccc.png"
-import Tindog from "../../public/images/projects/tindog.gif"
-import Simon from "../../public/images/projects/Simon.gif"
-import mysite from "../../public/images/projects/mysite.gif"
-import Dicee from "../../public/images/projects/Dicee.gif"
-import EchoVision from "../../public/images/projects/EchoVision.gif"
-import Drum from "../../public/images/projects/Drum Kit.gif"
-import TuneTide from "../../public/images/projects/Tune-Tide.gif"
+import Tindog from "../../public/images/projects/dog.png"
+import Simon from "../../public/images/projects/Simon.png"
+import mysite from "../../public/images/projects/mysite2.png"
+import Dicee from "../../public/images/projects/Dice.png"
+import EchoVision from "../../public/images/projects/echo.png"
+import Drum from "../../public/images/projects/drum.png"
+import TuneTide from "../../public/images/projects/tune.png"
 
 const FeaturedProject = ({type ,title, summary,img,link,github}) => {
 
