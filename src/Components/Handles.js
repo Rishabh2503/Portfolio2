@@ -5,8 +5,8 @@ import Link from 'next/link'
 
 const Handles = () => {
   return (
-    <div >
-    <h2 className='mb-5 h-[2rem] text-lg font-bold uppercase text-dark/75 text-center'>Handles</h2>
+    <div>
+    <h2 className='mb-5 h-[2rem] text-lg font-bold uppercase text-dark/75 dark:text-light text-center'>Handles</h2>
       <div className="main2">
   <div className="up2">
     <button className="card12" >
@@ -21,7 +21,7 @@ const Handles = () => {
       </button>
   </div>
   <div className="down2">
-    <button className="card32">
+    <button className="card32 dark:text-dark">
     <Link href="https://github.com/Rishabh2503" target={"_blank"}>
       <GithubIcon className='github2'/>
       </Link>
