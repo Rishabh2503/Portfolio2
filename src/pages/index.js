@@ -25,7 +25,9 @@ export default function Home() {
         </div>
         </div>
           <div className='w-1/2 ml-32'>
-            <Image  src={Rishabh} alt="Rishabh Gupta" className='rounded-full'/>
+            <Image  src={Rishabh} alt="Rishabh Gupta" className='rounded-full' priority sizes="(max-width : 768px) 100vw,
+            (max-width : 1200px) 50vw,
+            50vw"/>
           </div>
         </div>
       </Layout>

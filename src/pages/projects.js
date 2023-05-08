@@ -17,19 +17,22 @@ import TuneTide from "../../public/images/projects/tune.png"
 const FeaturedProject = ({type ,title, summary,img,link,github}) => {
 
     return(
-        <article className='w-full flex items-center justify-between relative rounded-3xl border border-solid border-dark bg-light shadow-2xl p-12'>
+        <article className='w-full flex items-center justify-between relative rounded-3xl border border-solid border-dark bg-light shadow-2xl p-12 dark:bg-dark dark:border-light'>
+        <div className='absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2.5rem] bg-dark dark:bg-light'/>
             <Link href={link} target="_blank" className='w-1/2 cursor-pointer overflow-hidden rounded-lg'>
-            <Image src={img} alt={title} className='w-full h-auto' priority/>
+            <Image src={img} alt={title} className='w-full h-auto' priority sizes="(max-width : 768px) 100vw,
+            (max-width : 1200px) 50vw,
+            33vw"/>
             </Link>
             <div className='w-1/2 flex flex-col items-start justify-between pl-6'>
-                <span className='text-primary font-medium text-xl'>{type}</span>
+                <span className='text-primary font-medium text-xl dark:text-primaryDark'>{type}</span>
                 <Link href={link} target="_blank" className='hover:underline underline-offset-2'>
-                <h2 className='my-2 w-full text-left text-4xl font-bold'>{title}</h2>
+                <h2 className='my-2 w-full text-left text-4xl font-bold dark:text-lime-50'>{title}</h2>
                 </Link>
-             <p className='my-2 font-medium text-dark'>{summary}</p>
+             <p className='my-2 font-medium text-dark dark:text-light'>{summary}</p>
              <div className='mt-2 flex items-center'>
                 <Link href={github} target="_blank" className='w-10' ><GithubIcon /></Link>
-                <Link href={link} target="_blank" className='ml-14 rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold'>Visit Project</Link>
+                <Link href={link} target="_blank" className='ml-14 rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold dark:bg-light dark:text-dark'>Visit Project</Link>
              </div>
             </div>
         </article>
@@ -38,18 +41,20 @@ const FeaturedProject = ({type ,title, summary,img,link,github}) => {
 const Project = ({type ,title,img,link,github}) => {
 
     return(
-        <article className='w-full flex flex-col items-center justify-between relative rounded-2xl border border-solid border-dark bg-light p-6'>
+        <article className='w-full flex flex-col items-center justify-between relative rounded-2xl border border-solid border-dark bg-light p-6 dark:bg-dark dark:border-light' >
             <Link href={link} target="_blank" className='w-full cursor-pointer overflow-hidden rounded-lg'>
-            <Image src={img} alt={title} className='w-full h-auto'/>
+            <Image src={img} alt={title} className='w-full h-auto priority sizes="(max-width : 768px) 100vw,
+            (max-width : 1200px) 50vw,
+            33vw"'/>
             </Link>
             <div className='w-full flex flex-col items-start justify-between pl-6'>
-                <span className='text-primary font-medium text-xl'>{type}</span>
+                <span className='text-primary font-medium text-xl dark:text-primaryDark'>{type}</span>
                 <Link href={link} target="_blank" className='hover:underline underline-offset-2'>
-                <h2 className='my-2 w-full text-left text-4xl font-bold'>{title}</h2>
+                <h2 className='my-2 w-full text-left text-4xl font-bold dark:text-lime-50'>{title}</h2>
                 </Link>
              <div className='mt-2 flex items-center'>
-                <Link href={github} target="_blank" className='w-10' ><GithubIcon /></Link>
-                <Link href={link} target="_blank" className='ml-14 rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold'>Visit</Link>
+                <Link href={github} target="_blank" className='w-10 ' ><GithubIcon /></Link>
+                <Link href={link} target="_blank" className='ml-14 rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold dark:bg-light dark:text-dark'>Visit</Link>
              </div>
             </div>
         </article>
@@ -66,7 +71,7 @@ const project = () => {
         <title>Rishabh | Project</title>
         <meta name="description" content='Projects'/>
       </Head>
-      <main className='w-full mb-16 flex flex-col items-center justify-center'>
+      <main className='w-full mb-16 flex flex-col items-center justify-center dark:text-light'>
         <Layout className='pt-16'>
             <Animatedtext text="Pioneering Innovation in Web Development" className='mb-16'/>
             <div className='grid grid-cols-12 gap-24'>

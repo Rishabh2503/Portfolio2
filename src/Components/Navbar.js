@@ -37,7 +37,7 @@ const Navbar = () => {
         <motion.a whileHover={{y:-2}} whileTap={{scale:0.9}} className='w-6 mr-3' href="https://twitter.com/Rishabh78043032" target={"_blank"} ><TwitterIcon /></motion.a>
         <motion.a whileHover={{y:-2}} whileTap={{scale:0.9}} className='w-6 mx-3' href="https://github.com/Rishabh2503" target={"_blank"} ><GithubIcon /></motion.a>
         <motion.a whileHover={{y:-2}} whileTap={{scale:0.9}} className='w-6 mx-3' href="https://www.linkedin.com/in/rishabh-gupta-863968244" target={"_blank"} ><LinkedInIcon /></motion.a>
-        <motion.a whileHover={{y:-2}} whileTap={{scale:0.9}} className='w-6 mx-3' href="https://in.pinterest.com/guptarish2501/" target={"_blank"} ><PinterestIcon /></motion.a>
+        <motion.a whileHover={{y:-2}} whileTap={{scale:0.9}} className='w-6 mx-3 bg-light rounded-full' href="https://in.pinterest.com/guptarish2501/" target={"_blank"} ><PinterestIcon /></motion.a>
         <motion.a whileHover={{y:-2}} whileTap={{scale:0.9}} className='w-8 ml-3' href="https://www.instagram.com/i_am_rishabh25/" target={"_blank"} ><InstaIcon /></motion.a>
 
     <button
