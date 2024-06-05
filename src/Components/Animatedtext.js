@@ -30,9 +30,9 @@ const wordVariants = {
 
 const AnimatedText = ({ text, className = '' }) => {
   return (
-    <div className='container mx-auto py-2 flex items-center justify-center sm:py-0 '>
+    <div className='container flex items-center justify-center py-2 mx-auto sm:py-0 '>
       <motion.h1
-        className={`inline-block text-dark font-bold capitalize text-5xl md:text-8xl ${className} dark:text-light`}
+        className={`inline-block text-dark font-bold capitalize text-[4vw] md:text-[5vw] ${className} dark:text-light`}
         variants={quoteVariants}
         initial='initial'
         animate='animate'
