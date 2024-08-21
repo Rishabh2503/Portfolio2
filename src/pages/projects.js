@@ -79,8 +79,8 @@ const project = () => {
                 title="Cloud Computing Cell Website"
                 img={Cloud}
                 summary="As a ReactJS developer I contributed to a college society project, I enhanced the website's visual appeal in several ways. Consider refining the color scheme, typography, and layout to create a more aesthetically pleasing design. I also incorporate graphics and animations to elevate the user experience. Additionally, optimizing the website's performance to ensure fast loading times and responsive functionality can further improve its overall quality."
-                link="/"
-                github="/"
+                link="https://ccc-web.vercel.app/"
+                github="https://github.com/Rishabh2503/cccWeb"
                 type="Feature Project"
               />
             </div>
@@ -97,8 +97,8 @@ const project = () => {
               <Project
                 title="TingDog"
                 img={Tindog}
-                link="/"
-                github="/"
+                link="https://rishabh2503.github.io/Tindog/"
+                github="https://github.com/Rishabh2503/Tindog"
                 type="Learning Project"
               />
             </div>
@@ -106,8 +106,8 @@ const project = () => {
               <Project
                 title="Portfolio"
                 img={mysite}
-                link="/"
-                github="/"
+                link="https://rishabh2503.github.io/Mysite/"
+                github="https://github.com/Rishabh2503/Mysite"
                 type="Learning Project"
               />
             </div>
@@ -115,8 +115,8 @@ const project = () => {
               <Project
                 title="Virtual Drum"
                 img={Drum}
-                link="/"
-                github="/"
+                link="https://rishabh2503.github.io/Drum-roll/"
+                github="https://github.com/Rishabh2503/Drum-roll"
                 type="Learning Project"
               />
             </div>
@@ -124,8 +124,8 @@ const project = () => {
               <Project
                 title="Dicee Game"
                 img={Dicee}
-                link="/"
-                github="/"
+                link="https://rishabh2503.github.io/Dice-game/"
+                github="https://github.com/Rishabh2503/Dice-game"
                 type="Learning Project"
               />
             </div>
@@ -134,7 +134,7 @@ const project = () => {
                 title="E-commerce"
                 img={EchoVision}
                 link="/"
-                github="/"
+                github="https://github.com/Rishabh2503/Ecommerce"
                 type="Future Project"
               />
             </div>
@@ -143,8 +143,8 @@ const project = () => {
                 title="TuneTide"
                 img={TuneTide}
                 summary="TuneTide is my ongoing project to build a music player website using ReactJS hooks, API functions, Redux, and Tailwind. Through this project, I am expanding my skills and knowledge in web development and refining my design and development abilities. TuneTide reflects my commitment to excellence in software development, and I am dedicated to delivering a high-quality product that meets and exceeds the expectations of its users."
-                link="/"
-                github="/"
+                link="tune-tide2.vercel.app"
+                github="https://github.com/Rishabh2503/TuneTide2"
                 type="Feature Project"
               />
             </div>
