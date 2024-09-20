@@ -36,7 +36,7 @@ const about = () => {
         </p>
       </div>
 
-      <div className='relative self-center col-span-3 p-8 border-2 border-solid h-[400px] lg:w-[40vw] rounded-2xl border-dark bg-light dark:border-light dark:bg-dark lg:col-span-8'>
+      <div className='relative self-center col-span-3 p-8 border-2 border-solid h-[400px] lg:w-[40vw] md:w-[80vw] rounded-2xl border-dark bg-light dark:border-light dark:bg-dark lg:col-span-8'>
         {/* <div className='absolute top-0 -right-3 -z-10 w-[80vw] h-full rounded-[2rem] bg-dark dark:border-light' /> */}
         <div className='flex justify-center h-full'>
           <Image src={Rishabh2} alt="Rishabh" className='w-auto h-full rounded-2xl' />
